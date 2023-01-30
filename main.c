@@ -1,5 +1,9 @@
 #include "lib/include.h"
-
+/*Grupo 41 Equipo: 
+Sonia Paola Aguillón Olamendi
+María Monserrath Elías Sanchez
+Alberto González Moreno
+Andrea Nieto Guerrero*/
 
 int main(void)
 {                           //15 14  13  12  11  10  9   8   7    6   5   4   3   2   1   0 
@@ -12,5 +16,4 @@ int main(void)
         SPI_write((uint16_t)count); 
         SysTick_1ms(50000);
     }
-
 }

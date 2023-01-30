@@ -25,7 +25,7 @@ extern void Configurar_SSI2(void)
     //2 500 000 = 50 000 000/(2*(1+SCR))
     // SCR = (50 000 000/2 500 000*2) - 1 = 9
     SSI2->CPSR =0x2; // 2.5 MHZ
-    SSI2->CR0 = (0x9<<8) | 0x0F; // datos de 15 bits
+    SSI2->CR0 = (0x9<<8) | 0x0F; // datos de 16 bits
     SSI2->CR1 |= (1<<1); //SSE=1 habilitar modoulo p.961 (0x02)
 }
 
